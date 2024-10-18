@@ -64,7 +64,7 @@ function App() {
       <Router basename="/Web/">
       <Navbar/>
         <Routes>
-          <Route path='/home' element={<Home/>}></Route>
+          <Route path='/' element={<Home/>}></Route>
           <Route path='/about' element={<About/>}></Route>
           <Route path='/service' element={<Service/>}></Route>
           <Route path='/web' element={<WebDevelopment/>}></Route>
